@@ -2,6 +2,16 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Find the deployment URL here ()
+
+Features:
+1. View Random 10 astronomy pictures with date taken and facts explained in swipeable manner.
+2. Shuffle the images.
+3. Copy image like to share to friends.
+4. View individual image in a new tab.
+5. Loading is implemented if the data from the API is not yet available.
+6. Like and Unlike the images (Doesn't persist upon page refresh)
+
 ## Available Scripts
 
 In the project directory, you can run:
