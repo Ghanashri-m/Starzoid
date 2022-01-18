@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Find the deployment URL here ()
+Find the deployment URL: [Click Here](https://vigorous-shirley-cd696e.netlify.app/).
 
 Features:
 1. View Random 10 astronomy pictures with dates taken and facts explained (PS: Scroll the explanation part to view full details) in swipeable manner.
