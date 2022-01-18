@@ -25,6 +25,22 @@ const Container = styled('div')(({ theme }) => ({
   },
 }));
 
+const Span = styled('span')(({ theme }) => ({
+  display: 'initial',
+  [theme.breakpoints.down('sm')]: {
+    display: 'none',
+  },
+  // [theme.breakpoints.up('sm')]: {
+  //   display: 'initial',
+  // },
+  // [theme.breakpoints.up('md')]: {
+  //   display: 'initial',
+  // },
+  // [theme.breakpoints.up('lg')]: {
+  //   display: 'initial',
+  // },
+}));
+
 const Header = styled('div')({
   margin: '0 20px 20px 20px',
   display: 'flex',
@@ -49,7 +65,7 @@ function App() {
           style={{background: '#fff', color: '#333', height: 'fit-content', padding: '10px', zIndex: 1}}
           startIcon={<ShuffleIcon />}
           variant="contained">
-          Shuffle
+          <Span>Shuffle</Span>
         </LoadingButton>
       </Header>
       <div className="container mt-5 carousel">
