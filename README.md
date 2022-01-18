@@ -5,12 +5,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Find the deployment URL here ()
 
 Features:
-1. View Random 10 astronomy pictures with date taken and facts explained in swipeable manner.
+1. View Random 10 astronomy pictures with dates taken and facts explained (PS: Scroll the explanation part to view full details) in swipeable manner.
 2. Shuffle the images.
-3. Copy image like to share to friends.
+3. Copy image link to share with friends.
 4. View individual image in a new tab.
 5. Loading is implemented if the data from the API is not yet available.
-6. Like and Unlike the images (Doesn't persist upon page refresh)
+6. Like and Unlike the images. (PS: Doesn't persist upon page refresh)
 
 ## Available Scripts
 
