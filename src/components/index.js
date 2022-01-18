@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import { PropTypes } from 'prop-types';
 import { useSelector, useDispatch } from 'react-redux';
 import React, { useEffect, useState } from 'react';
@@ -17,7 +16,6 @@ function ImageSlider(props) {
     const dispatch = useDispatch();
     const [images, setImages] = useState(false);
     const [copied, setCopied] = useState(false);
-    // const [afterLiked, setAfterLiked] = useState([]);
     function copy(url) {
         const el = document.createElement("input");
         el.value = url;
@@ -72,7 +70,6 @@ function ImageSlider(props) {
                                             latest[index].liked = true;
                                         }
                                         dispatch(likeImage(latest));
-                                        // setImages(latest);
                                     }}>
                                         <FavoriteIcon style={{color: image.liked ? 'red' : 'initial'}} />
                                     </IconButton>
